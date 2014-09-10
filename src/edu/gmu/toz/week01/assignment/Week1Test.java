@@ -35,7 +35,7 @@ public class Week1Test {
 	public void setup() {
 		// We will go over arrays soon, but here is an example of
 		// creating a new array and initializing the values
-		nums = new double[] { 2.0, 4.5, 11, 0, 1, 12345, 99999,
+		nums = new double[] { 2.0, 4.5, 11, 0, 1, 12345, 9999999,
 				Double.MAX_VALUE, Math.random(), Math.random() };
 	}
 
