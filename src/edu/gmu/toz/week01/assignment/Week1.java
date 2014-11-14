@@ -8,7 +8,7 @@ package edu.gmu.toz.week01.assignment;
  * NOTE: You cannot use the Math library for this assignment.
  *
  * TASK 1: Copy Week1.java and Week1Test.java to your our package following the
- * same pattern as used above (i.e., replace rcasstev with your username).
+ * same pattern as used above (i.e., replace toz with your username).
  * 
  * TASK 2: Implement the square and cube methods.
  *
@@ -18,7 +18,7 @@ package edu.gmu.toz.week01.assignment;
  * TASK 4: Run the unit tests in Week1Test.java to ensure your methods are
  * correct.
  * 
- * TASK 5: Email your version of Week1.java to rcasstev@gmu.edu
+ * TASK 5: Email your version of Week1.java to toz@gmu.edu
  * 
  */
 public class Week1 {

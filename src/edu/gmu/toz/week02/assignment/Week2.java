@@ -8,7 +8,7 @@ import java.util.Arrays;
  * DUE: September 8th at noon
  *
  * TASK 1: Copy Week2.java and Week2Test.java to your own package following the
- * same pattern as used above (i.e., replace rcasstev with your username).
+ * same pattern as used above (i.e., replace toz with your username).
  * 
  * TASK 2: Implement the averageElements and squareElements methods.
  *
@@ -19,7 +19,7 @@ import java.util.Arrays;
  * TASK 4: Run the unit tests in Week2Test.java to ensure your methods are
  * correct.
  * 
- * TASK 5: Email your version of Week2.java to rcasstev@gmu.edu
+ * TASK 5: Email your version of Week2.java to toz@gmu.edu
  * 
  */
 public class Week2 {

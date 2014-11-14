@@ -1,0 +1,23 @@
+// File format:
+// <package and class name>,<display name>
+//
+// NOTE:  You do not need to include the package name if
+// the GamePlayer is in the same package as the GameRunner.
+//
+// Notice how the package/class name is separated from the
+// display name with a comma.
+//
+// You can have your implementation play in the competition by
+// adding it to the following list.
+//
+// Example implementations:
+Strategy1Player,Strategy1
+Strategy2Player,Strategy2
+TfTR,Tit for Tat most of the time
+Player1,Tit for Tat always
+Adaptive,Adaptive
+Ensemble,Ensemble
+TitForTat,TitForTat
+AltruisticTitForTat,AltruisticTitForTat
+SRATitForTat,SRATitForTat
+AltruisticPlayer,AltruisticPlayer
