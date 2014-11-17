@@ -38,8 +38,13 @@ public class DrawController implements MouseListener {
 	public void mouseClicked(MouseEvent e) {
 		if (drawMode.equals(DrawMode.ERASE)) {
 			List<Drawable> toBeRemoved = new ArrayList<Drawable>();
-			Point curPoint = e.getPoint();
-			toBeRemoved = drawModel.getDrawableList();
+			
+			// Check to see which objects need to be erased
+			for (Drawable d : drawModel.getDrawableList()) {
+				if (d.contains(e.getPoint())) {
+					toBeRemoved.add(d);
+				}
+			}
 			drawModel.removeDrawables(toBeRemoved);
 		}
 	}

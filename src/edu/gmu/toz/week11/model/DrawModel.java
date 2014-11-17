@@ -69,11 +69,13 @@ public class DrawModel implements Drawable {
 
 	@Override
 	public boolean contains(Point p) {
-		return true;
+		return false;
 	}
 	
 	public void removeDrawables(List<Drawable> toBeRemoved){
 		drawableList.removeAll(toBeRemoved);
+		// Since there is no new object drawn, then just pass in null
+		fireDrawEvent(null);
 	}
 
 }

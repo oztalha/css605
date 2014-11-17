@@ -30,4 +30,16 @@ public class Line implements Drawable {
 	public void draw(Graphics g) {
 		g.drawLine(location1.x, location1.y, location2.x, location2.y);
 	}
+	
+	@Override
+	public boolean contains(Point p) {
+
+		Point upperLeft = location1;
+		Point lowerRight = location2;
+
+		double lineDist = upperLeft.distance(lowerRight);
+		double distThroughPoint = upperLeft.distance(p) + p.distance(lowerRight);
+		
+		return distThroughPoint - lineDist < 2.0;
+	}
 }

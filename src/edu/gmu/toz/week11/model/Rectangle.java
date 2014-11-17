@@ -33,4 +33,14 @@ public class Rectangle extends AbstractShape {
 	public void draw(Graphics g) {
 		g.drawRect(getLocation().x, getLocation().y, width, height);
 	}
+	
+	@Override
+	public boolean contains(Point p) {
+
+		Point upperLeft = getLocation();
+		Point lowerRight = new Point(upperLeft.x + width, upperLeft.y + height);
+
+		return p.x >= upperLeft.x && p.x <= lowerRight.x && p.y >= upperLeft.y
+				&& p.y <= lowerRight.y;
+	}
 }
