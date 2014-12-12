@@ -3,6 +3,14 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="commons-lang3-3.3.2/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="commons-lang3-3.3.2/commons-lang3-3.3.2-javadoc.jar"/>
 	<classpathentry kind="lib" path="mason.18.jar" sourcepath="mason.zip"/>
+	<classpathentry kind="lib" path="libraries/jfreechart-1.0.17.jar"/>
+	<classpathentry kind="lib" path="libraries/jcommon-1.0.21.jar"/>
+	<classpathentry kind="lib" path="libraries/jmf.jar"/>
+	<classpathentry kind="lib" path="libraries/portfolio.jar"/>
+	<classpathentry kind="lib" path="libraries/itext-1.2.jar"/>
+	<classpathentry kind="lib" path="libraries/bsh-2.0b4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

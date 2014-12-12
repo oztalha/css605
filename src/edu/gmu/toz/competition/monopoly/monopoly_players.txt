@@ -1,0 +1,18 @@
+// File format:
+// <package and class name>
+//
+// NOTE:  You do not need to include the package name if
+// the MonopolyPlayer is in the same package as the Monopoly class.
+//
+// There is no display name this time.
+//
+// You can have your implementation play in the competition by
+// adding it to the following list.
+//
+// Example implementations:
+SimpleMonopolyPlayer
+SimpleMonopolyPlayer
+HumanMonopolyPlayer
+WeakestLinkPlayer
+// You can also include the package name
+// edu.gmu.rcasstev.competition.monopoly.SimpleMonopolyPlayer
